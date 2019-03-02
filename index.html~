@@ -34,7 +34,7 @@
 			<script src="index_archivos/index.js"></script>
     </header>
     <style>
-	 .bottom-three {margin-bottom: 2cm;}
+	 .bottom-three {margin-bottom: 2.5cm;}
 	 strong {background-color: #d5f4e6;}
 	 span {background-color: #f18973;}
 	 
@@ -44,7 +44,7 @@
     <div class="site-content container">
       <div class="col-md-9">
         <p><img {width: 90%;} src="index_archivos/logouncuyofcai.png"></p>
-        <p><img {width: 100%;} src="index_archivos/ingenioctave.png" ></p>
+        <p><img {width: 90%;} src="index_archivos/ingenioctave.png" ></p>
         
         <h1 id="ingeniate-en-octave">Ingeniate en OCTAVE</h1>
         <p>Este curso está orientado a estudiantes de escuelas secundarias que estén finalizando y deseen adquirir conocimientos básicos y algunas habilidades  
