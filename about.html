@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sobre el curso</title>
+    <link rel="icon" href="index_archivos/gnu-octave-logo.png" />
     <meta name="description" content="Electiva N° 188 Introducción a Octave para Ciencias Aplicadas e Ingeniería
 ">
     <link rel="stylesheet" href="index_archivos/main.css">
@@ -34,26 +35,77 @@
 			<script src="index_archivos/index.js"></script>
     </header>
     <style>
-  .bottom-three {
-     margin-bottom: 2.5cm;
-  }
+  .bottom-three {margin-bottom: 2.5cm;}
+  strong {background-color: #d5f4e6;}
+  span {background-color: rgba(100, 100, 100, 0.3);}
+  
 </style> <p class="bottom-three"> </p>
     <div class="site-content container">
         <div class="col-md-9">
         
-          <h2 id="programa">Programa</h2>
-          <ul>
-            <li>.</li>
-          </ul>
-
-<hr>
-<!-- ######################################################################################-->          
+        <!-- ######################################################################################-->          
           <h2 id="objetivos">Objetivos</h2>
           <ol>
             <li>Manejar funcionalidades y órdenes básicas en <strong>lenguaje de programación m de Octave/Matlab</strong> para trabajar con listas de números, vectores, matrices, funciones, realizar gráficas de funciones y lectura de archivos de datos.</li>
             <li>Comprender el proceso computacional involucrado en la creación y ejecución de programas en guiones (scripting) desde la ventana de órdenes o desde el editor.</li>
             <li>Adquirir conocimientos y habilidades básicas en el uso de lenguaje "m" de Octave/Matlab para resolver problemas simples de computación científica en ingeniería.</li>
           </ol>
+        
+        <!-- ######################################################################################-->
+          <h2 id="programa">Programa</h2>
+          <ul>
+          <h3 id="clase1">Clase 1</h3>
+          <ul>
+            <li>Reseña histórica sobre cálculo computacional. Experimentos "in vivo", "in vitro" e "in silico". Cálculo avanzado en ingeniería, mecánica computacional, problemas de interés, etcétera. ¿Qué es un sistema operativo? Historia de Unix. Arquitectura del SO Linux. GNU Octave.</li>    
+    			<li><a>Recreo 20 min.</a></li>
+    			<li>Octave$> Entorno de trabajo. Escritorio. Directorio Actual. Ventana de órdenes. Explorador de archivos. Espacio de trabajo. Historial de órdenes. Primer paso “Hola Mundo”.</li>
+    			<li>Se resolverá un problema de ingenio de forma colaborativa: la nave espacial y los 2 recipientes de <span><b>antimateria oscura</b></span>.</li>
+    			<li><a>Recreo 20 min.</a></li>
+    			<li>Clase práctica tutelada resolviendo ejercicios de la Guía de Ejercicios 1. Operaciones aritméticas básicas con números reales mediante líneas de órdenes: suma, resta, producto, división.</li>
+          </ul>
+
+          <h3 id="clase2">Clase 2</h3>
+          <ul>
+            <li>Archivos que contienen un guión de órdenes (script). Creación y edición de un script. Ejecución de scripts. Resolución de problemas aritméticos simples empleando scripts.</li> 
+				<li>Se presentará un problema de ingenio a resolver de forma colaborativa: edades de los hijos de un matemático.</li>
+    			<li><a>Recreo 20 min.</a></li>
+    			<li>Graficar en Octave curvas planas empleando ezplot. Añadir líneas a un gráfico ya existente. Modificar título y nombre de los ejes. Órden subplot: múltiples gráficas en la misma figura.</li>
+    			<li>Resolución de un problema de interés en ingeniería: cadena suspendida de sus dos extremos y sometida a un campo gravitatorio uniforme.</li>
+    			<li><a>Recreo 20 min.</a></li>
+    			<li>Clase práctica tutelada resolviendo ejercicios. El foco se pondrá sobre la utilidad de emplear una PC para cálculos simples y graficar resultados.</li>
+          </ul>
+          
+          <h3 id="clase3">Clase 3</h3>
+          <ul>
+            <li>Definición de listas de números como arreglos: vectores/matrices. Operaciones con vectores/matrices (min, max, sort). Operadores aritméticos. Tipos de matrices predefinidos.</li> 
+				<li>Carga de datos y su representación gráfica empleando la función plot. Estilos de línea y marcadores en la función plot. Guardar e imprimir figuras.</li>
+    			<li><a>Recreo 20 min.</a></li>
+    			<li>Resolución de problemas de interés en ingeniería: (1) brazo tensionado, (2) sistema de reactores químicos.</li>
+    			<li><a>Recreo 20 min.</a></li>
+    			<li>Clase tutelada resolviendo ejercicios. El foco se pondrá sobre la utilidad de emplear una PC para cálculos simples pero exhaustivos, graficar resultados y exportar figuras.</li>
+          </ul>
+    
+    
+          <h3 id="clase4">Clase 4</h3>
+          <ul>
+            <li>Nociones de programación estructurada. Definición de funciones de usuario. Funciones inline, funciones anónimas. Declaraciones de control: if ... else; switch; for; while.</li> 
+    			<li><a>Recreo 20 min.</a></li>
+    			<li>Resolución de problemas de interés en ingeniería: (1) brazo tensionado, (2) sistema de reactores químicos.</li>
+    			<li><a>Recreo 20 min.</a></li>
+    			<li>Clase práctica tutelada resolviendo ejercicios. Cálculos de ingeniería simples pero exhaustivos, foco en la carga de datos y representación gráfica de resultados.</li>
+          </ul>
+
+
+          <h3 id="clase5">Clase 5</h3>
+          <ul>
+            <li>En el último módulo de la práctica de octave se realizará la toma de datos y procesamiento en tiempo real. Se combinarán tecnologías desarrolladas en la carrera de Ingeniería Mecánica, para la obtención de mediciones en tiempo real, con las habilidades adquiridas por los alumnos durante el curso para su procesamiento. Se busca familiarizar al estudiante con conceptos de análisis de datos moderno usando un enfoque práctico.</li> 
+				<li>En específico se plantea realizar un experimento que emula a una Incubadora de aves. Este consiste en una fuente de calor en un recipiente cerrado y varios sensores de temperatura distribuidos en su interior para determinar la curva de distribución de temperaturas. El ensayo se repite variando condiciones de convección y humedad para ver como afecta a la transferencia de calor dentro del recipiente.</li>
+    			<li><a>Recreo 20 min.</a></li>
+    			<li>Entrega de Certificados acreditando realización del curso Ingeniate en Octave y folleto de la carrera de Ingeniería Mecánica (tamaño A3, a color).</li>
+          </ul>
+
+          </ul>
+<hr>
                     
         <p><img {width: 90%;} src="about_archivos/2018_octave_4-2.png"></p>
 
