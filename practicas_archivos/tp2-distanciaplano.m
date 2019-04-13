@@ -1,5 +1,6 @@
+%% NOTA: se recomienda no emplear acentos y otros caracteres que no son del "english".
 
-%% Ejercicio 2
+%% Ejercicio 7 Guia de problemas 2
 
 %% Inciso a)
 

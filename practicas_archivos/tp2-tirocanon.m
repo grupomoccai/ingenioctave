@@ -1,6 +1,10 @@
+%Guia de problemas 2, ejercicio 9
+
+%Tiro en 2D de un "canion"
 
 %% Primer caso, ang = pi/3 y v0 = 100 m/s.
 
+% Ecuaciones de movimiento horizontal y vertical parametrizadas en t (tiempo).
 %% x = cos(ang) * v0 * t
 %% y = sen(ang) * v0 * t - (g/2) * t^2
 %%

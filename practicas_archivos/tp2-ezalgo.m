@@ -1,4 +1,5 @@
 %% Algunas graficas
+%Guia de problemas 2, ejercicio 8
 
 figure(1)
 ezplot3('t/2*cos(t)','t/2*sin(t)','t')
