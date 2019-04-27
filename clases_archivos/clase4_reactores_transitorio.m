@@ -7,6 +7,8 @@ clear all
 % Q03 c03 = 160 mg/min
 % Volumen de los 5 tanques:
 % V1= 50 m3, V2 = 20 m3, V3 = 40 m3, V4 = 80 m3 y V5 = 100 m3
+%
+% Acumulacion = Entradas - Salidas
 
 % Sistema de cinco reactores acoplados como en la figura 12.3.
 A=[  0.12  0.000 -0.020 0.0000  0.000;
@@ -42,9 +44,22 @@ set(gca,'fontsize',20)
 % El tiempo hasta el estado estacionario se caracteriza
 % por el tiempo que tarda cada reactor en alcanzar el 90%
 % de la concentracion en el estado estacionario: t90.
-%   1) Estime t90 para cada reactor.
-%   2) Calcular de forma exacta el tiempo t90
+%   (1) Estime t90 para cada reactor.
+%   (2) ¿Por que es relevante el valor t90?
 
 c90 = 0.90 * (A\b);
 
-% === 1) 
+% RTA === 1) 
+
+% Estimamos el tiempo t90 empleando los valores calculados de C(t)
+% Esto lo determinamos como el minimo entre C90 y C(t) para cada columna Ci
+DC=Ct-c90';
+
+[dmin,imin]=min(DC.*DC);
+
+%mostramos los valores de t90 y comparamos C90aprox con C90 exacto
+R90=[t(imin(1)) Ct(imin(1),1) c90(1);
+     t(imin(2)) Ct(imin(2),2) c90(2);
+     t(imin(3)) Ct(imin(3),3) c90(3);
+     t(imin(4)) Ct(imin(4),4) c90(4);
+     t(imin(5)) Ct(imin(5),5) c90(5)]
