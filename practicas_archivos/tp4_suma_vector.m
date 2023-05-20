@@ -1,4 +1,4 @@
-% Ingeniate en Octave - 2019 - FCAI-UNCuyo
+% Ingeniate en Octave - 2023 - FCAI-UNCuyo
 % 
 % Trabajo Practico 4 - Ejercicio 2
 % Este script suma los elementos de un vector x.

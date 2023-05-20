@@ -1,4 +1,4 @@
-% Ingeniate en Octave - 2019 - FCAI-UNCuyo
+% Ingeniate en Octave - 2023 - FCAI-UNCuyo
 % 
 % Trabajo Practico 4 - Ejercicio 3
 % Este script imprime los numeros primos mayores que 1 y menores que N=200

@@ -4,9 +4,8 @@ function b = tp4_carga_escalon_rampa(t)
 % el vector de carga del sistema de 5 reactores quimicos.
 % La funcion modela el comportamiento de la tercer 
 % componente de "b" en forma de un pulso escalon negativo.
-% Introduccion Octave - 2019 - FCAI-UNCuyo
+% Introduccion Octave - 2023 - FCAI-UNCuyo
 % 
-% Trabajo Practico 5 - Ejercicio 2
 
 if t<10
   b = [1;0;4;0;0];
