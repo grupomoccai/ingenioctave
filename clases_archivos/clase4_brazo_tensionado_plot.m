@@ -1,7 +1,7 @@
 function clase4_BrazoTensionado_plot(posB)
 % Esta funcion grafica el esquema del brazo tensionado del curso de Ingeniate en Octave
 %
-% (C) MOCCAI - 2019
+% (C) MOCCAI - 2023
 
 %coordenadas del "brazo" donde se fija el tensor
 brazo = [0.0,0.0,0.0; 
