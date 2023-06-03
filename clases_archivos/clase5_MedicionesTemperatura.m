@@ -1,4 +1,4 @@
-clc 
+clc
 close all
 clear all
 
@@ -13,7 +13,7 @@ xlabel('Tiempo','fontsize',20)
 ylabel('% Humedad','fontsize',20)
 hold off
 
-% datos de temperatura medidos en la incuvadora
+% datos de temperatura medidos en la incubadora
 T1=datos(:,2);
 Tf2=datos(:,3);
 Tf3=datos(:,4);
@@ -33,7 +33,7 @@ C3=polyfit(Tf3,T1,2)
 T3=(C3(1).*Tf3.**2)+(C3(2)*Tf3)+C3(3);
 
 figure(3)
-hold on 
+hold on
 title('Temperaturas corregidas','fontsize',30)
 plot(tiempo,T1,'b',tiempo,T2,'g',tiempo,T3,'r')
 xlabel('Tiempo','fontsize',20)
